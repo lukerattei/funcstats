@@ -1,0 +1,118 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #333;
+}
+#content {
+    width: 925px;
+    margin: 0 auto;
+}
+#nav {
+    margin-top: -20px;
+}
+#nav h1 {
+    float: left;
+}
+#addform {
+    float: right;
+}
+#addbox {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px;
+    line-height: 20px;
+    width: 250px;
+    font-size: 14px;
+    border-color: #999;
+}
+.spinner {
+    display: none;
+    background: url(spinner.gif) 0 0 no-repeat;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#networkvis {
+    margin: 20px 0;
+    min-height: 250px;
+}
+#linesvis {
+    margin: 20px 0;
+    min-height: 250px;
+}
+#details {
+    margin-top: -30px;
+    min-height: 75px;
+}
+
+.link {
+    stroke: #ccc;
+}
+
+.node.project:hover {
+    cursor: pointer;
+}
+
+.node text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+}
+    .node.project text {
+        font-weight: bold;
+    }
+
+g.project path {
+    stroke-width: 1.5;
+    fill: none;
+    opacity: 0.5;
+}
+    g.project path.hover {
+        stroke-width: 6;
+        opacity: 1.0;
+        cursor: pointer;
+    }
+
+line {
+    stroke: black;
+}
+
+circle {
+    fill: black;
+}
+
+text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    color: #333;
+}
+
+g.author rect {
+    fill: white;
+    opacity: 0.7;
+}
+g.author text {
+    font-weight: bold;
+    color: #666;
+}
+
+.axis .domain {
+    stroke-width: 3;
+    stroke: #000;
+    fill: none;
+}
+
+.axis.label {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,3 @@
+[submodule "vendor/saikuro"]
+	path = vendor/saikuro
+	url = git://github.com/lukerattei/saikuro.git
